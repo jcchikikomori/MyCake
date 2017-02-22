@@ -9,4 +9,5 @@
 
   <p><?php echo $html->link('Back', array('action'=>'index')); ?></p>
   <p><?php echo $html->link('Edit post', array('action'=>'edit', $post['Post']['id'])); ?></p>
+  <p><?php echo $html->link('Delete', array('action'=>'delete', $post['Post']['id']), NULL, 'Are you sure bes? Wala nang balikan to. Move on na kaagad pagkatapos!'); ?></p>
 </html>

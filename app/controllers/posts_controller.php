@@ -35,7 +35,7 @@ class PostsController extends AppController {
 
   function delete($id=null) {
     $this->Post->delete($id);
-    $this->Session->setFlash('The post has been deleted');
+    $this->Session->setFlash('The post (#'.$id.') has been deleted');
     $this->redirect(array('action'=>'index'));
   }
 
