@@ -42,7 +42,4 @@ class PostsController extends AppController {
     $this->redirect(array('action'=>'index'));
   }
 
-  function say_hello() {
-  }
-
 }
