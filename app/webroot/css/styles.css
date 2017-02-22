@@ -539,3 +539,10 @@ div.code-coverage-results span.result-good {
 #url-rewriting-warning {
 	display: none;
 }
+
+/*CUSTOM*/
+/*#content div {
+	padding: 10px;
+	width: 100%;
+	border: 1px #000 solid;
+}*/
