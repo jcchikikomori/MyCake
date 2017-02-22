@@ -2,9 +2,11 @@
 
 class PostsController extends AppController {
   var $name = 'Posts'; // variable thing for ctp
+  var $layout = 'default';
 
   function index() {
     $this->set('posts', $this->Post->find('all')); //setting variable
+    // $this->set('title_for_layout', 'jccworld');
   }
 
   function view($id=null) {
@@ -20,6 +22,7 @@ class PostsController extends AppController {
         $this->Session->setFlash('Please try again');
       }
     }
+    $this->set('layout_title', 'jccworld');
   }
 
   function edit($id=null) {
