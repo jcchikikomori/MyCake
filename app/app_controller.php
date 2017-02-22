@@ -1,7 +1,7 @@
 <?php
 
 /**
- *
+ * Custom AppController
  */
 class AppController extends Controller
 {
